@@ -12,7 +12,7 @@ public class HibernateUtil {
     
     static {
         try {
-         .
+         
             sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
         } catch (Throwable ex) {
             // Log the exception. 
