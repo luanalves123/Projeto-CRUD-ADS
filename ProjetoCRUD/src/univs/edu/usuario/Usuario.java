@@ -10,12 +10,14 @@ public class Usuario {
    @Id 
    @GeneratedValue 
    private int idUsuario;
+   
    @Column(length = 100,nullable = false)
     private String nomeUsuario;
     
     private String login;
      @Column(length = 100,nullable = false)
-    private String senha;
+   
+     private String senha;
  @Column(length = 100,nullable = false)
     /**
      * @return the idUsuario
